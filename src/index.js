@@ -9,12 +9,12 @@ import {sortBytext,sortByDate} from './actions/filters.jsx'
 const store=stores()
 
 
-store.dispatch(AddExpense({description:'Khurana',note:'Last Name',amount:'50000000000',createdAt:100}))
-store.dispatch(AddExpense({description:'Madhav',note:'my name',amount:'70000000',createdAt:50}))
-store.dispatch(AddExpense({description:'TheGreatOne',note:'The Rock',amount:'5002121000',createdAt:150}))
+//store.dispatch(AddExpense({description:'Khurana',note:'Last Name',amount:'50000000000',createdAt:100}))
+//store.dispatch(AddExpense({description:'Madhav',note:'my name',amount:'70000000',createdAt:50}))
+//store.dispatch(AddExpense({description:'TheGreatOne',note:'The Rock',amount:'5002121000',createdAt:150}))
 
 //store.dispatch(sortBytext({text:'mad'}))
-store.dispatch(sortByDate({sortBy : 'amount'}))
+//store.dispatch(sortByDate({sortBy : 'amount'}))
 
 console.log(store.getState())
 
