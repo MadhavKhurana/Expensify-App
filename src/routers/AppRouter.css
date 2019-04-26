@@ -1,0 +1,25 @@
+.is-active{
+    font-weight: bold;
+    color: red;
+}
+
+#heading{
+    border-style: solid;
+  border-width: 5px;
+    background-color: #1cb423;
+    border-color: #1cb423;
+    color: #ffffff;
+}
+
+#content{
+    position: relative;
+    top: 80px;
+    background-color: #009320;
+    box-shadow: 0 0 2000px #cc32bc;
+}
+
+#navbar{
+    background-color: black;
+    font-size: 20px;
+    padding: 20px;
+}
